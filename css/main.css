@@ -11,10 +11,40 @@ html {
 .top {
   margin: .3em;
   padding: .6em;
-  background-color: #713837;
+  background-color: #79756f;
 }
 
 h1 {
   color: #fff;
   font-family: 'Bevan', cursive;
+}
+
+.tops {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tops li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  text-align: left;
+}
+
+.tops a {
+  display: inline-block;
+  padding: .5rem .75rem;
+  background-color: #713837;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tops a:hover {
+  background-color: #713837;
+  color: #fff;
 }
