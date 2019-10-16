@@ -1,6 +1,20 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Bevan, sans-serif;
   line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.top {
+  margin: .3em;
+  padding: .6em;
+  background-color: #713837;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Bevan', cursive;
 }
