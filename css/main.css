@@ -9,43 +9,43 @@ html {
 }
 
 body {
-  margin: .3em;
-  padding: .6em;
-  background-color: #79756f;
-}
-
-h1 {
-  color: #fff;
-  font-family: Bevan;
-}
-
-.tops {
+  display: block;
   margin: 0;
   padding: 0;
+  font-size: .8rem;
+  font-family: sans-serif;
+  border-width: medium;
+  border-style: solid;
+  border-color: #595652;
   list-style-type: none;
   text-align: center;
   background-color: #79756f;
 }
 
-.tops li {
-  display: inline-block;
-  margin: 0 .5em 1em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #713837;
-  text-align: left;
+h1 {
+  color: #fff;
+  font-family: "Bevan", sans-serif;
 }
 
-.tops a {
+.top li {
   display: inline-block;
-  padding: .5rem .75rem;
+  margin: .3em;
+  border-radius: .3rem;
+  padding: .6em .5em .75em;
+  font-family: sans-serif;
   background-color: #713837;
-  border-radius: 4px;
+  list-style-type: disc;
+}
+
+.top a {
+  display: inline-block;
+  text-align: left;
+  background-color: #713837;
+  border-radius: .3em;
   color: #fff;
   text-decoration: none;
 }
 
-.tops a:hover {
-  background-color: #713837;
-  color: #fff;
+.top a:hover {
+  background-color: #f33;
 }
